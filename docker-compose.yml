@@ -1,0 +1,18 @@
+version: "3.8"
+
+services:
+  crawler:
+    image: dockercncodegod/crawl_agents:latest   # ✅ 镜像名放这里
+    # 如果你要本地 build，就保留 build；否则可以删掉 build
+    
+    
+
+    env_file:
+      - .env
+
+    # 把 .env 的值作为参数传给 ENTRYPOINT（pwsh ./crawl_agentId.ps1）
+    command: ["-agent_Id", "${AGENT_ID}", "-cookies", "${COOKIES}"]
+    working_dir: /app
+    volumes:
+      - ./output:/app/output
+    restart: unless-stopped

@@ -1,0 +1,40 @@
+agentId:12678 
+输出:
+🎭 角色名: 张淼
+🖼️ 头像链接: https://realb-img.cdn.bcebos.com/avatars/1743064734image1%20%283%29.webp?x-bce-process=image/resize,m_mfit,w_200   
+agentId:12679 
+输出:
+🎭 角色名: emoji猜歌名
+🖼️ 头像链接: https://realb-img.cdn.bcebos.com/avatars/1743064735image2%20%282%29.webp?x-bce-process=image/resize,m_mfit,w_200   
+agentId:12680 
+输出:
+🎭 角色名: 爱丽丝的小屋
+🖼️ 头像链接: https://realb-img.cdn.bcebos.com/avatars/17430710672025-03-21T06_45_56.221Z-2_WH_120x120px_WH_120x120px.webp?x-bce-process=image/resize,m_mfit,w_200   
+agentId:12681 
+输出:
+🎭 角色名: 通过门禁检查
+🖼️ 头像链接: https://realb-img.cdn.bcebos.com/avatars/17430711892025-03-21T07_04_59.546Z-4_WH_120x120px_WH_120x120px.webp?x-bce-process=image/resize,m_mfit,w_200   
+agentId:12682 
+输出:
+🎭 角色名: 修真模拟器
+🖼️ 头像链接: https://realb-img.cdn.bcebos.com/avatars/17430713722025-03-21T07_17_40.732Z-2_WH_120x120px_WH_120x120px.webp?x-bce-process=image/resize,m_mfit,w_200   
+agentId:12683 
+输出:
+🎭 角色名: 谜语师·艾瑞斯
+🖼️ 头像链接: https://realb-img.cdn.bcebos.com/avatars/17430714832025-03-21T07_48_31.484Z-2_WH_120x120px_WH_120x120px.webp?x-bce-process=image/resize,m_mfit,w_200   
+agentId:12684 
+输出:
+🎭 角色名: 休闲人生模拟器
+🖼️ 头像链接: https://realb-img.cdn.bcebos.com/avatars/1743064736%E6%9C%AA%E5%91%BD%E5%90%8D%E9%A1%B9%E7%9B%AE-%E5%9B%BE%E5%B1%82%201%20%2844%29%20%281%29.webp?x-bce-process=image/resize,m_mfit,w_200   
+agentId:12686 
+输出:
+🎭 角色名: scp收容模拟器
+🖼️ 头像链接: https://realb-img.cdn.bcebos.com/avatars/1743064737%E6%9C%AA%E5%91%BD%E5%90%8D%E9%A1%B9%E7%9B%AE-%E5%9B%BE%E5%B1%82%201%20%2848%29%20%281%29.webp?x-bce-process=image/resize,m_mfit,w_200   
+agentId:12687 
+输出:
+🎭 角色名: 成功人生模拟器
+🖼️ 头像链接: https://realb-img.cdn.bcebos.com/avatars/1743064737image3%20%282%29.webp?x-bce-process=image/resize,m_mfit,w_200   
+agentId:12678 
+输出:
+🎭 角色名: 张淼
+🖼️ 头像链接: https://realb-img.cdn.bcebos.com/avatars/1743064734image1%20%283%29.webp?x-bce-process=image/resize,m_mfit,w_200   

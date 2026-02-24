@@ -1,0 +1,7 @@
+[2026-02-16T07:14:08.448Z] ⚠️ ⚠️ check 内容解析失败: {"toast":"已达到回复上限，休息一会"}
+[2026-02-16T07:20:25.192Z] ⚠️ ⚠️ check 内容解析失败: {"toast":"已达到回复上限，休息一会"}
+[2026-02-16T07:24:17.032Z] ⚠️ ⚠️ status 数据 JSON 解析失败: {"code":0,"msg":"success","send_id":2,"event_type":7,"result":[{"run_detail":{"steps":[{"step_id":"1","status":1,"name":"check","content":"{\"toast\":\"已达到回复上限，休息一会\"}"}]},"risk_level":2,"is_end":true}]}
+[2026-02-16T07:35:26.155Z] ⚠️ ⚠️ status 数据 JSON 解析失败: {"code":0,"msg":"success","send_id":2,"event_type":7,"result":[{"run_detail":{"steps":[{"step_id":"1","status":1,"name":"check","content":"{\"toast\":\"已达到回复上限，休息一会\"}"}]},"risk_level":2,"is_end":true}]}
+[2026-02-16T07:38:38.281Z] ❌ ❌ 读取流时出错: Error: ❌ 触发风控限制：已达到回复上限，休息一会
+[2026-02-16T07:38:38.291Z] ❌ ❌ 触发风控限制：已达到回复上限，休息一会
+[2026-02-16T07:42:56.103Z] ❌ ❌ 触发风控限制：已达到回复上限，休息一会
