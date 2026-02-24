@@ -14,13 +14,32 @@
 AGENT_ID=12679
 COOKIES=APP_VERSION=999.999.999;BAIDUID={你自己的cookies值}; BAIDUID_BFESS={你自己的cookies值}; BDUSS={你自己的cookies值}; BDUSS_BFESS={你自己的cookies值}; BAIDUID={你自己的cookies值};  RT={你自己的cookies值}
 
-## 示例{不能用的}
-AGENT_ID=12679
-COOKIES=APP_VERSION=999.999.999;BAIDUID=EB08BD77F9FACFD734BB4FA47550B8F1:FG=1; BAIDUID_BFESS=EB08BD77F9FACFD734BB4FA47550B8F1:FG=1; BDUSS=VuR2JRTmNUbUYyRzZweDVEczJRY1dYMUJKS2NPdTQ0RlRwMGpmVkFoa0ZUN3BwSVFBQUFBJCQAAAAAAAAAAAEAAAD~jmDSztLSqsWswabN5gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXCkmkFwpJpNG; BDUSS_BFESS=VuR2JRTmNUbUYyRzZweDVEczJRY1dYMUJKS2NPdTQ0RlRwMGpmVkFoa0ZUN3BwSVFBQUFBJCQAAAAAAAAAAAEAAAD~jmDSztLSqsWswabN5gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXCkmkFwpJpNG; BAIDUID=EB08BD77F9FACFD734BB4FA47550B8F1:FG=1;  RT="z=1&dm=baidu.com&si=da3a4046-0a5a-440a-89b7-6c52aabec90b&ss=mlyw5zlv&sl=5&tt=582&bcn=https%3A%2F%2Ffclog.baidu.com%2Flog%2Fweirwood%3Ftype%3Dperf&ld=vee\"
 
 
 获取cookies：
 
+
+
+在网站聊天，打开F12 点击>network > 随便发一条信息后获取agents chat 数据>右键chat>COPY>copy as fetch(nodejs)
+```
+fetch("https://yuexia.baidu.com/capi/v1/story/conversation/chat", {
+  "headers": {
+    "accept": "text/event-stream",
+    "accept-language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "content-type": "text/plain;charset=UTF-8",
+    "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": {这里就是你的cookies},
+    "Referer": "https://yuexia.baidu.com/amuse/agent?fromsource=wise_theater&id=15760"
+  },
+  "body": "{\"agent_id\":\"15760\",\"stream\":true,\"user_info\":{\"cuid\":\"\",\"baiduid\":\"EB08BD77F9FACFD734BB4FA47550B8F3:FG=1\"},\"thread\":{\"thread_id\":\"319777200\",\"round_index\":1,\"message\":[{\"type\":\"TEXT\",\"data\":{\"text\":{\"query\":\"哈哈\"}}}]},\"trans_datas\":[{\"type\":\"json\",\"key\":\"ext_chat\",\"value\":\"{\\\"agent_id\\\":\\\"15760\\\",\\\"chapter_id\\\":\\\"16936\\\",\\\"from\\\":\\\"h5\\\",\\\"source\\\":\\\"wise_theater\\\",\\\"valid_round\\\":1}\"}]}",
+  "method": "POST"
+});
+  ```
 
 
 ./docker/find_threadId
