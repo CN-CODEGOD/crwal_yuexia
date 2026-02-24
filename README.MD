@@ -16,7 +16,7 @@ COOKIES=APP_VERSION=999.999.999;BAIDUID={你自己的cookies值}; BAIDUID_BFESS=
 
 
 
-获取cookies：
+## 获取cookies：
 
 
 
@@ -42,4 +42,11 @@ fetch("https://yuexia.baidu.com/capi/v1/story/conversation/chat", {
   ```
 
 
-./docker/find_threadId
+
+## 运行 
+
+检查你的 .env file 如果没问题
+```
+docker compose up -d
+```
+运行脚本
